@@ -1,0 +1,17 @@
+{
+  "name": "@vitorxfs/project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@vitorxfs/my-ssr": "*",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0"
+  }
+}
